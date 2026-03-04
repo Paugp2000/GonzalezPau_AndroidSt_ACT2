@@ -26,45 +26,7 @@
                 android:value="" />
 
         </activity>
-        <LinearLayout
-            android:id="Layout1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:gravity="center">
 
-            <Button
-                android:id="@+id/btnEx6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Exercici 6" />
-
-            <Button
-                android:id="@+id/btnEx7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Exercici 7" />
-
-            <Button
-                android:id="@+id/btnEx8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Exercici 8" />
-
-            <Button
-                android:id="@+id/btnEx9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Exercici 9" />
-
-            <Button
-                android:id="@+id/btnEx10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Exercici 10" />
-
-        </LinearLayout>
     </application>
 
 </manifest>

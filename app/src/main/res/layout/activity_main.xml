@@ -10,42 +10,44 @@
         android:id="@+id/Layout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" >
+        app:layout_constraintVertical_bias="0.0">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnEx6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Exercici 6" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnEx7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Exercici 7" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnEx8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Exercici 8" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnEx9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Exercici 9" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnEx10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Exercici 10" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
